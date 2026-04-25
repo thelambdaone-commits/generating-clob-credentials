@@ -5,7 +5,11 @@ Génère les credentials CLOB pour trader sur Polymarket.
 ## Format .env (entrée)
 
 ```env
-PRIVATE_KEY=0x...  # 64 caractères hex
+# Ethereum Private Key
+# Format: hex (64 caractères) avec préfixe 0x = 66 caractères
+# Longueur: 256 bits / 32 bytes
+# blockchain: Ethereum (ou EVM compatible)
+PRIVATE_KEY=0x...
 ```
 
 ## Format .credentials.json (sortie)
